@@ -4,7 +4,7 @@
   --text: #1c1c1a;
   --muted: #6b6b66;
   --line: #e4e4de;
-  --accent: #0b6e4f;
+  --accent: #7c3aed;
   --accent-contrast: #ffffff;
   --radius: 14px;
   --max: 1040px;
@@ -17,8 +17,8 @@
     --text: #ecece8;
     --muted: #9a9a93;
     --line: #2d2d2a;
-    --accent: #4fd1a0;
-    --accent-contrast: #0c1a14;
+    --accent: #a78bfa;
+    --accent-contrast: #1b1033;
   }
 }
 
@@ -253,3 +253,12 @@ footer {
 .group + .sub { margin-top: -6px; }
 .gallery + .albums { margin: 28px 0 0; }
 #private .cta { margin-top: 24px; }
+
+/* Portrait, Logos in Projekt-Karten */
+.portrait { object-position: center 18%; }
+.card-img.contain {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 190px;
+}
